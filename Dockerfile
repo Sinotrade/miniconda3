@@ -20,6 +20,7 @@ RUN apt-get update -q && \
         curl \
         libaio1 \
         zip \
+        unzip \
         make \
         wget \
     && apt-get clean \
