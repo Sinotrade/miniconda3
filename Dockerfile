@@ -17,7 +17,10 @@ RUN apt-get update -q && \
         mercurial \
         openssh-client \
         procps \
-        subversion \
+        curl \
+        libaio1 \
+        zip \
+        make \
         wget \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
